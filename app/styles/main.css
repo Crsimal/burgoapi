@@ -1,0 +1,60 @@
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: #af1c27;
+}
+
+#logoHeader {
+  padding: 10px;
+  display: inline-block;
+}
+
+header nav {
+  display: block;
+  background: #E1E1DF;
+}
+
+header nav > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav > ul > ul {
+  list-style: none;
+}
+
+header nav > ul > li {
+  background: #fff;
+  padding: 10px;
+}
+
+header nav > ul > li > a {
+  color: #af1c27;
+  text-decoration: none;
+}
+
+header nav > ul > ul > li {
+  padding: 10px;
+}
+
+header nav > ul > ul > li > a {
+  color: #222;
+  text-decoration: none;
+}
+
+#menu-toggle {
+    border: medium none;
+    border-radius: 5px;
+    float: right;
+    font-size: 30px;
+    height: 50px;
+    margin: 10px;
+}
+
