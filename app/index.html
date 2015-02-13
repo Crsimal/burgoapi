@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>burgoapi</title>
-    <meta name="description" content="">
+    <title>Burgoapi | Productos Apicultura</title>
+    <meta name="description" content="BURGOAPI es la marca de productos destinados a la apicultura que BURGOSANO azúcares ha desarrollado a lo largo del 2014 y que tiene prevista su salida al mercado durante las primeras semanas del 2015">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="/favicon.ico">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -28,41 +28,444 @@
             </a>
         </div>
         <button id="menu-toggle">
-          &#9776;
+            &#9776;
         </button>
         <nav id="mainNav">
             <ul class="navtop">
-                <li class="element"><a href="index.html" title="Ir al Inicio">Burgoapi</a>
+                <li data-url="#mainHedaer" class="element"><a href="index.html" title="Ir al Inicio">Burgoapi</a>
                 </li>
                 <ul class="subnav">
-                    <li class="subelement">
-                        <a href="#quienes" title="¿Qué es BurgoApi?">¿Qué es BurgoApi?</a>
+                    <li data-url="#burgoapi" class="subelement">
+                        <a href="#burgoapi" title="¿Qué es BurgoApi?">¿Qué es BurgoApi?</a>
                     </li>
-                    <li class="subelement">
+                    <li data-url="#promo" class="subelement">
                         <a href="#promo" title="Video Promocional">Video Promocional</a>
                     </li>
                 </ul>
-                <li class="element"><a href="#productos" title="Ver productos">Productos</a>
+                <li data-url="#productos" class="element"><a href="#productos" title="Ver productos">Productos</a>
                 </li>
                 <ul class="subnav">
-                    <li class="subelement">
+                    <li data-url="#burgoapi68" class="subelement">
                         <a href="#burgoapi68" title="Burgoapi 68">Burgoapi 68</a>
                     </li>
-                    <li class="subelement">
+                    <li data-url="#burgofonda" class="subelement">
                         <a href="#burgofonda" title="Burgofonda">Burgofonda</a>
                     </li>
                     <li class="subelement">
-                        <a href="#burginvert" title="Burgoinvert">Burgoinvert</a>
+                        <a data-url="#burgoinvert" href="#burginvert" title="Burgoinvert">Burgoinvert</a>
                     </li>
                 </ul>
-            <li class="element"><a href="#contacto" title="Contactar con burgoapi">Contacto</a>
-            </li>
+                <li data-url="#contacto" class="element"><a href="#contacto" title="Contactar con burgoapi">Contacto</a>
+                </li>
             </ul>
         </nav>
         <section id="carrito">
-          <!-- @implements carrito -->
+            <!-- @implements carrito -->
+            <div id="shopChart"><span id="cuantity"><!-- @implements carrito/NumProductos --></span>
+            </div>
+            <button class="red button" id="comrar">Realizar Compra</button>
         </section>
     </header>
+    <!-- HEADER -->
+
+    <section id="lab">
+        <!-- HEXAGONAL GRID CONTENT -->
+        <article>
+
+            <div class="lab_item">
+                <div class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2 blacked">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lab_item">
+                <div data-url="#burgoapi" class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2">
+                            <h3>¿Qué es BurgoApi?</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lab_item">
+                <div data-url="#promo" class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2">
+                            <h3>Vídeo Promocional</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lab_item">
+                <div class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2 blacked">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="lab_item">
+                <div data-url="#productos" class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2 blacked">
+                            <h3>Productos</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lab_item">
+                <div class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2 nobg" style="background-image: url('images/BurgoApi.png');background-size: 168px auto;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lab_item">
+                <div class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2 blacked">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lab_item">
+                <div data-url="#burgofonda" class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2">
+                            <h3>BurgoFonda</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lab_item">
+                <div data-url="#burgoinvert" class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2">
+                            <h3>BurgoInvert</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lab_item">
+                <div data-url="#burgoapi68" class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2">
+                            <h3>BurgoApi 68</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lab_item">
+                <div data-url="#contacto" class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2 nobg" style="background-image: url('images/contact.png');background-size: 100px auto;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!-- HEXAGONAL GRID CONTENT -->
+    <hr />
+    <section id="burgoapi">
+
+        <div class="hexagon hexagonCustomSmall">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2 noefect">
+                    <h3 class="white">¿Que es BurgoApi?</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="rectangle RectangleCustom">
+            <p>BURGOAPI es la marca de productos destinados a la apicultura que BURGOSANO azúcares ha desarrollado a lo largo del 2014 y que tiene prevista su salida al mercado durante las primeras semanas del 2015</p>
+
+        </div>
+
+
+        <div class="infoBurgoapi">
+            <p>No somos nuevos en el sector. Llevamos años elaborando productos como el <strong class="red">Burgoapi 68</strong> que sólo suministrábamos a granel.</p>
+            <p> Desde Enero de este año 2015, contamos con 3 innovadores productos en nuevos formatos. Bolsas y bandejas de un kg. listas para usarse con tan sólo perforarlas. Todos estos productos han sido desarrollados en estrecha cooperación con profesionales del sector y supervisión de veterinarios especializados.
+            </p>
+            <p>
+                <strong class="red">BurgoApi</strong> nace con la esperanza de convertirse en el producto español de más calidad para aportar a las abejas nutrientes esenciales cuando las circunstancias así lo aconsejen. Con piensos específicos para cada necesidad y elaborados con las mismas materias primas que destinamos a la exigente industria alimentaria. Mantenimiento y estimulación de sus colmenas a precios muy razonables y calidad superior.
+            </p>
+            <p>
+                Año 2015. <strong class="red">BurgoSano</strong>, tras un laborioso desarrollo efectuado de la mano de asociaciones apícolas y de especialistas en nutrición, lanza sus nuevos productos y formatos. Se han unificado criterios y se reduce el número de jarabes, dando salida a tres productos muy completos:</p>
+            <ul class="mall">
+                <li><strong class="red mr">BURGOAPI 68</strong> Jarabe de alta concentración de fructosa</li>
+                <li><strong class="red mr">BURGOINVERT</strong> Jarabe de azúcar invertido</li>
+                <li><strong class="red mr">BURGOFONDA</strong> Pasta alimenticia tipo ambrosía</li>
+            </ul>
+            <p>Trabajamos en estrecha cooperación con profesionales del sector y supervisión de veterinarios especializados:</p>
+            <ul class="mall">
+                <li><strong class="red mr">ARNA – Asociación Apícola Aragonesa</strong>(Zaragoza y alrededores)<a href="http://arnaapicola.es" class="ml" target="_blank" title="visitar web arna apicola">arnaapicola.es</a>
+                </li>
+                <li><strong class="red mr">Colosan</strong>(Extremadura, Andalucía, y zona centro)<a href="http://www.colosan.eu" class="ml" target="_blank" title="visitar web colosan">colosan.eu</a>
+                </li>
+                <li><strong class="red mr">ApiNorte</strong>(Burgos y alrededores)<a href="http://www.apinorte.com" target="_blank" class="ml" title="visitar web api norte">apinorte.com</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </section>
+
+    <hr />
+
+    <section id="productos">
+        <article>
+            <!--<div class="hexagon hexagonCustomSmall">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2 noefect blacked">
+                    <h3 class="special">Productos</h3>
+                </div>
+            </div>
+        </div>
+        <div class="prods">
+            <div class="lab_item">
+                <div class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2 specialred">
+                            <h3>BurgoApi 68</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lab_item">
+                <div class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2 specialred">
+                            <h3>BurgoFonda</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lab_item">
+                <div class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2 specialred">
+                            <h3>BurgoInvert</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+            <div class="lab_item">
+                <div class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2 blacked">
+                            <h3>Productos</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lab_item">
+                <div data-url="#burgofonda" class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2">
+                            <h3>BurgoFonda</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lab_item">
+                <div data-url="#burgoinvert" class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2">
+                            <h3>BurgoInvert</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lab_item">
+                <div data-url="#burgoapi68" class="hexagon hexagon2">
+                    <div class="hexagon-in1">
+                        <div class="hexagon-in2">
+                            <h3>BurgoApi 68</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div id="productMark"></div>
+        <div id="burgoapi68" class="productInfo">
+            <div class="hexagon hexagonCustomSmall">
+                <div class="hexagon-in1">
+                    <div class="hexagon-in2 noefect">
+                        <h3 class="white">BurgoApi 68</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rectangle RectangleCustom">
+                <p>Nuestro jarabe apícola de alta pureza que se compone exclusivamente de fructosa y glucosa, carente de azúcares nocivos para el sistema digestivo. Su alto contenido en Fructosa (60 %), previene la cristalización dentro de las celdas a bajas temperaturas. No se elabora a altas temperaturas con lo que se evita la aparición de HMF.
+                </p>
+
+            </div>
+
+            <div class="infoBurgoapi">
+                <p><strong class="red">Sus ventajas:</strong>
+                    <ul>
+                        <li>No necesita disolverse</li>
+                        <li> Listo para su uso</li>
+                        <li>No cristaliza</li>
+                        <li> Microbiológicamente Estable</li>
+                        <li>Amplia caducidad</li>
+                        <li>Fácil dosificación</li>
+                        <li>Excelente rendimiento por su elevada concentración de nutrientes</li>
+                    </ul><strong class="red"> Datos técnicos del producto:</strong>
+                    <ul>
+                        <li> Composición porcentual Materia seca: <i class="red">68 %</i>
+                        </li>
+                        <li>Fructosa : <i class="red">60 %</i>
+                        </li>
+                        <li>D-Glucosa: <i class="red">40 %</i> </li>
+                    </ul><strong class="red">Presentación:</strong>
+                    <ul>
+                        <li>Cajas de 12 kg en bolsas de 1 kg</li>
+                        <li>Cubo de 25 kg </li>
+                        <li>Contenedor IBC retornable de 1400 kg </li>
+                        <li>Cisternas de hasta 25 toneladas métricas</li>
+                    </ul> <strong class="red">Conservación y almacenamiento:</strong>
+                    <p>15 – 25 º C Manténgase en lugares limpios, lejos de focos de contaminación química o biológica. Respete las temperaturas aconsejadas de almacenamiento.</p>
+                </p>
+
+
+            </div>
+        </div>
+
+        <div id="burgoinvert" class="productInfo">
+            <div class="hexagon hexagonCustomSmall">
+                <div class="hexagon-in1">
+                    <div class="hexagon-in2 noefect">
+                        <h3 class="white">BurgoInvert</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rectangle RectangleCustom">
+                <p>BurgoInvert es un alimento apícola de alta pureza compuesto exclusivamente de sacarosa con sus componentes de fructosa y de glucosa. De esta forma BURGOINVERT no contiene azúcares nocivos para el delicado aparato digestivo de las abejas.
+                </p>
+
+            </div>
+
+            <div class="infoBurgoapi">
+                <p><strong class="red">Sus ventajas:</strong>
+                    <ul>
+                        <li>No necesita disolverse</li>
+                        <li> Listo para su uso</li>
+                        <li>No cristaliza</li>
+                        <li> Microbiológicamente Estable</li>
+                        <li>Amplia caducidad</li>
+                        <li>Fácil dosificación</li>
+                        <li>Excelente rendimiento por su elevada concentración de nutrientes</li>
+                    </ul><strong class="red"> Datos técnicos del producto:</strong>
+                    <ul>
+                        <li> Composición porcentual Materia seca: <i class="red">68 %</i>
+                        </li>
+                        <li>Fructosa : <i class="red">60 %</i>
+                        </li>
+                        <li>D-Glucosa: <i class="red">40 %</i> </li>
+                    </ul><strong class="red">Presentación:</strong>
+                    <ul>
+                        <li>Cajas de 12 kg en bolsas de 1 kg</li>
+                        <li>Cubo de 25 kg </li>
+                        <li>Contenedor IBC retornable de 1400 kg </li>
+                        <li>Cisternas de hasta 25 toneladas métricas</li>
+                    </ul> <strong class="red">Conservación y almacenamiento:</strong>
+                    <p>15 – 25 º C Manténgase en lugares limpios, lejos de focos de contaminación química o biológica. Respete las temperaturas aconsejadas de almacenamiento.</p>
+                </p>
+
+
+            </div>
+        </div>
+
+        <div id="burgofonda" class="productInfo">
+            <div class="hexagon hexagonCustomSmall">
+                <div class="hexagon-in1">
+                    <div class="hexagon-in2 noefect">
+                        <h3 class="white">BurgoFonda</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rectangle RectangleCustom">
+                <p>BurgoFonda es una pasta alimenticia con espectro de azúcares específicos para la abeja en finísimos cristales recubiertos de una película de azúcares disueltos. Dicha película impide las indeseadas agrupaciones de cristales que dificultan la absorción por el aparato digestivo de las abejas.
+
+                </p>
+
+            </div>
+
+            <div class="infoBurgoapi">
+                <p><strong class="red">Sus ventajas:</strong>
+                    <ul>
+                        <li> Listo para su uso</li>
+                        <li>Gran pureza y consistencia</li>
+                        <li>No gotea ni con las temperaturas más elevadas</li>
+                        <li>Amplia caducidad</li>
+                        <li>Fácil extracción y absorción</li>
+                        <li>Versatilidad: apto para estimulación, alimento de apoyo y en la generación de nuevas colonias</li>
+                    </ul><strong class="red"> Datos técnicos del producto:</strong>
+                    <ul>
+                        <li> Composición porcentual Materia seca: <i class="red">Hasta un 94 %</i>
+                        </li>
+                        <li>Fructosa : <i class="red">6 %</i>
+                        </li>
+                        <li>Sacarosa: <i class="red">83 %</i> </li>
+                        <li>D-Glucosa : <i class="red">7.4 %</i>
+                        </li>
+                        <li>Maltosa: <i class="red">2.9 %</i> </li>
+                        <li>Otros Sacáridos : <i class="red">1.2 %</i>
+                        </li>
+                        <li>Cenizas: <i class="red">&lt;0.01 %</i>
+                        </li>
+                    </ul><strong class="red">Presentación:</strong>
+                    <ul>
+                        <li>Cajas de 12 kg en bandejas de 1 kg</li>
+                        <li>Cajas de 12 kg en una bolsa (Bloque para lonchear)</li>
+                        <li>Cubo de 25 kg</li>
+                    </ul>
+                </p>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="wrapper">
+            
+            <form id="contactoFormulario">
+                <input name="nombre" id="nombre" type="text" class="feedback-input" placeholder="Nombre" required />
+                <input name="email" id="email" type="email" class="feedback-input" placeholder="Email" required />
+                <textarea name="comentario" id="comentario" class="feedback-input" placeholder="Comentario"></textarea>
+                <input type="submit" id="contactoEnviar" value="ENVIAR" />
+            </form>
+
+            <div id="contactoDatos">
+                <h3>BURGOSANO</h3>
+                <p>C/ Mayor, 148 - NAVE C</p>
+                <p>31521 MURCHANTE, NAVARRA</p>
+                <p><a href="tel:948838606">948 83 86 06</a>
+                </p>
+                <p><a href="mailto:comercial@burgosano.com">comercial@burgosano.com</a>
+                </p>
+            </div>
+        </div>
+    </section>
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
