@@ -1,5 +1,5 @@
 body {
-  background: #fafafa;
+  background: #E9A530;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
   padding: 0;
@@ -12,7 +12,7 @@ hr {
 }
 
 header {
-  background: #af1c27;
+  background: #601E0F;
 }
 
 #logoHeader {
@@ -112,7 +112,7 @@ header nav > ul > ul > li > a {
 /* carrito */
 
 #carrito {
-  background: #E1E1DF;
+  background: #CACA94;
   text-align: right;
   padding: 10px;
 }
@@ -124,6 +124,7 @@ header nav > ul > ul > li > a {
     display: inline-block;
     height: 30px;
     width: 30px;
+    visibility: hidden;
 }
 
 #shopChart:hover {
@@ -144,6 +145,7 @@ button.red {
     top: -7px;
     background: #E0454D;
     color: #fff;
+    visibility: hidden;
 }
 
 
@@ -246,7 +248,7 @@ table {
     padding: 20px;
     display: inline-block;
     float: right;
-    background: #AF1C27;
+    background: #601E0F;
     color: #fff;
     position: relative;
     top: 119px;
@@ -298,7 +300,7 @@ table {
     position: relative;
     text-align: center;
     top: 170px;
-    color: #AF1C27;
+    color: #59140F;
 }
 
 .hexagon h3.white {
@@ -344,7 +346,7 @@ table {
 
 .hexagon-in2 {
   -webkit-box-shadow: inset 0 0 0 200px rgba(175, 28, 39, 0.48);
-  box-shadow: inset 0 0 0 200px rgba(175, 28, 39, 0.48);
+  box-shadow: inset 0 0 0 200px #953D1C;
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -399,7 +401,7 @@ table {
 
 .noefect {
   -webkit-box-shadow: inset 0 0 0 200px #AF1C27;
-  box-shadow: inset 0 0 0 200px #AF1C27;
+  box-shadow: inset 0 0 0 200px #601E0F;
 }
 
 .noefect:hover {
@@ -470,7 +472,7 @@ table {
 
 #contacto {
   width: 100%;
-  background: #AF1C27;
+  background: #601E0F;
 }
 
 
@@ -647,5 +649,45 @@ textarea {
 .lab_item:nth-child(n+2) {
   margin-top: -56px;
 }
+
+}
+
+.subr{
+	text-decoration: underline;
+}
+
+/*GALERIA*/
+
+.thumbnail-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.thumbnail-list li {
+	display: inline-block;
+	vertical-align: top;
+	width: 33.333%;
+	padding: 2%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.thumbnail-list img {
+	display: block;
+	width: 100%;
+}
+
+.galeria{
+
+    z-index: 9999;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+.galeria img{
+box-shadow: 6px 6px 5px #888888;
 
 }
